@@ -97,3 +97,7 @@ const BudgetService = (() => {
 
   return { getFeasibility, computeGroceryTotals, buildSummary, clearCache };
 })();
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = BudgetService;
+}

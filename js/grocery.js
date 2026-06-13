@@ -197,3 +197,7 @@ const GroceryService = (() => {
 
   return { render, toPlainText, copyToClipboard };
 })();
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = GroceryService;
+}

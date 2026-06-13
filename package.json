@@ -1,0 +1,27 @@
+{
+  "name": "chefai-cooking-planner",
+  "version": "1.0.0",
+  "description": "> A fully accessible, secure, AI-powered daily meal planning micro-app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haariskhanpathan-creator/chefai-cooking-planner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haariskhanpathan-creator/chefai-cooking-planner/issues"
+  },
+  "homepage": "https://github.com/haariskhanpathan-creator/chefai-cooking-planner#readme",
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "jest-environment-jsdom": "^29.0.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}
